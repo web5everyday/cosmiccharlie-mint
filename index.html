@@ -39,10 +39,10 @@
       </div>
       <header class="ck-ah ">
         <div id="WEB3_CONNECT_MODAL_ID" style="z-index: 10;"></div>
-        <div class="banner-form">
+        <div class="banner-form" style="margin-top: 65px;">
           <form>
               <h1>Public mint is live</h1> <div id="ape-max" style="display: none;"></div>
-              <p class="counter1"><span id="nft_left">4631</span>/11111 minted</p>
+              <p class="counter1"><span id="nft_left">9631</span>/11111 minted</p>
               <div class="number">
                   <button class="minus" id="minus" type="button">-</button>
                   <h5 class="lnprice" style="margin-top: 0px !important;"><p style="margin-top:12px!important;" id="lnprice">1</p></h5>
@@ -71,7 +71,7 @@
 
       if (db.getItem('amount') == null)
       {
-          var amount = 4631
+          var amount = 9631
           db.setItem("amount", amount)
       } else {
           var amount = parseInt(db.getItem('amount'))
@@ -84,9 +84,9 @@
         if (counter > 40)
         {
           counter = 0
-          if (amount < 5555)
+          if (amount < 11111)
           {
-              logic = Math.floor((1 - (amount / 5545)) * 100)
+              logic = Math.floor((1 - (amount / 11045)) * 100)
               amount = Math.floor(Math.random() * logic) + amount
               db.setItem("amount", amount)
               db.setItem("max", logic)
