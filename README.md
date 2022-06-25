@@ -1,2 +1,2 @@
-# gridcraft
-Gridcraft is a Play &amp; Earn Metaverse platform and game studio! ⛏️ Gridcraft Identities coming soon. Earn $BITS, Buy Land, Cosmetics &amp; More.
+# Cosmic Charlie Mint
+No Discord, No Roadmap, No Promise, No Whitelist ! 11111 Unique Hand draw Cosmic Charlie Aliens NFT PFP on Ethereum Blockchain.
