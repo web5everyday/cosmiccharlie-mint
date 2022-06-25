@@ -1,0 +1,251 @@
+/* src/fonts.css */
+@font-face {
+  font-family:"Minecrafter";
+  src:url(../fonts/minecrafter-regular-QP6DJ2EA-GW06IBUD.woff2) format("woff2"),
+  url(../fonts/minecrafter-regular-4DL53Z7I.woff)          format("woff");
+  font-weight:normal;
+  font-style:normal
+ }
+ @font-face {
+  font-family:"Minecraftia";
+  src:url(../fonts/minecraftia-regular-GHR4IEZ3-MEPEEZTE.woff2) format("woff2"),
+  url(../fonts/minecraftia-regular-EX64BCT7.woff)          format("woff");
+  font-weight:normal;
+  font-style:normal
+ }
+ details summary::-webkit-details-marker,
+ details summary::marker {
+  display:none
+ }
+ /* chunk:end */
+ /* styles:src/reset.imba */
+ *,
+ *::before,
+ *::after,
+ :root {
+  margin:0rem;
+  padding:0rem;
+  box-sizing:border-box;
+  transform-style:inherit
+ }
+ img {
+  max-width:100%
+ }
+ * {
+  scrollbar-width:none
+ }
+ /* chunk:end */
+ /* styles:src/typography.imba */
+ html,
+ body,
+ p {
+  font-family:"Minecraftia",sans-serif;
+  font-weight:400
+ }
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6,
+ button {
+  font-family:"Minecrafter",mono
+ }
+ h1 {
+  font-size:clamp(28px,calc(1.75rem + ((1vw - 6.4px) * 10.625)),80px);
+  font-weight:400;
+  text-transform:uppercase;
+  color:hsla(204.27,93.68%,18.63%,100%)
+ }
+ h2 {
+  font-size:clamp(28px,calc(1.5rem + ((1vw - 6.4px) * 4.0625)),48px);
+  font-weight:400;
+  text-transform:uppercase;
+  color:hsla(204.27,93.68%,18.63%,100%)
+ }
+ h3 {
+  font-size:clamp(24px,calc(1.75rem + ((1vw - 6.4px) * 1.25)),36px);
+  font-weight:400;
+  text-transform:uppercase;
+  color:hsla(204.27,93.68%,18.63%,100%)
+ }
+ h4 {
+  font-size:clamp(18px,calc(1.125rem + ((1vw - 6.4px) * 2.8125)),36px);
+  font-weight:400;
+  color:hsla(204.27,93.68%,18.63%,100%)
+ }
+ p {
+  font-size:clamp(14px,calc(1rem + ((1vw - 6.4px) * .3125)),18px);
+  font-weight:400;
+  color:hsla(204.27,93.68%,18.63%,100%)
+ }
+ em {
+  color:hsla(143.93,100%,64.12%,100%);
+  font-style:normal
+ }
+ a,
+ a:visited {
+  color:inherit
+ }
+ .text-gradient-lightblue {
+  background:linear-gradient(180deg,#fff 40%,#A6EAFF 40%);
+  background-clip:text;
+  text-fill-color:hsla(0,0%,100%,0%);
+  filter:drop-shadow(.1em 0px 0px #040a1c) drop-shadow(0px .11em 0px #040a1c) drop-shadow(0px .15em 0px #040a1c) drop-shadow(-.1em 0px 0px #040a1c) drop-shadow(0px -.1em 0px #040a1c);
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:hsla(0,0%,100%,0%)
+ }
+ .text-gradient-darkblue {
+  background:linear-gradient(180deg,#00F5FF 0%,#0087FF 70%);
+  background-clip:text;
+  text-fill-color:hsla(0,0%,100%,0%);
+  filter:drop-shadow(.1em 0px 0px #040a1c) drop-shadow(0px .11em 0px #040a1c) drop-shadow(0px .15em 0px #040a1c) drop-shadow(-.1em 0px 0px #040a1c) drop-shadow(0px -.1em 0px #040a1c);
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:hsla(0,0%,100%,0%)
+ }
+ .text-heading-dark {
+  filter:drop-shadow(.1em 0px 0px #040a1c) drop-shadow(0px .11em 0px #040a1c) drop-shadow(0px .15em 0px #040a1c) drop-shadow(-.1em 0px 0px #040a1c) drop-shadow(0px -.1em 0px #040a1c)
+ }
+ .text-heading-darkblue {
+  filter:drop-shadow(.2em 0px 0px #040a1c) drop-shadow(0px .2em 0px #040a1c) drop-shadow(0px .1em 0px #0474DB) drop-shadow(-.1em 0em 0px #040a1c) drop-shadow(0px -.15em 0px #040a1c)
+ }
+ .text-heading-blue {
+  filter:drop-shadow(.1em 0px 0px #29b7e9) drop-shadow(0px .11em 0px #29b7e9) drop-shadow(0px .15em 0px #0474DB) drop-shadow(-.1em 0px 0px #29b7e9) drop-shadow(0px -.1em 0px #29b7e9)
+ }
+ /* chunk:end */
+ /* styles:src/pages/index.imba */
+ .ck-af:not(#_):not(#_):not(#_) {
+  min-height:100vh;
+  position:relative
+ }
+ .ck-ah:not(#_):not(#_):not(#_) {
+  padding:1rem;
+  max-width:1140px;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:space-between;
+  padding-bottom:100px;
+  gap:2rem;
+  --u_rg: 2rem;
+  --u_cg: 2rem;
+  margin-left:auto;
+  margin-right:auto;
+  z-index:-1
+ }
+ gridcraft-hero {
+  display:block
+ }
+ .ck-ak:not(#_):not(#_):not(#_) {
+  display:flex;
+  flex-direction:column;
+  justify-content:center
+ }
+ .ck-al:not(#_):not(#_):not(#_) {
+  z-index:10
+ }
+ .ck-an:not(#_):not(#_):not(#_) {
+  z-index:10;
+  display:flex;
+  flex-direction:row;
+  gap:.5rem;
+  --u_rg: .5rem;
+  --u_cg: .5rem;
+  align-items:center;
+  justify-content:center
+ }
+ .ck-ao:not(#_):not(#_):not(#_) {
+  padding:1rem
+ }
+ .ck-ap:not(#_):not(#_):not(#_) {
+  width:48px
+ }
+ .ck-aq:not(#_):not(#_):not(#_) {
+  padding:1rem
+ }
+ .ck-ar:not(#_):not(#_):not(#_) {
+  width:48px
+ }
+ gridcraft-nav {
+  display:block
+ }
+ .ck-as:not(#_):not(#_):not(#_) {
+  display:flex;
+  position:absolute;
+  top:0rem;
+  bottom:0rem;
+  left:0rem;
+  right:0rem
+ }
+ .ck-at:not(#_):not(#_):not(#_) {
+  display:flex;
+  object-fit:cover;
+  object-position:bottom;
+  height:100%;
+  width:100%
+ }
+ .ck-av:not(#_):not(#_):not(#_) {
+  position:absolute;
+  bottom:2rem;
+  right:2rem;
+  border-radius:30%;
+  background-color:#52ff9c;
+  padding-left:8px;
+  padding-right:8px;
+  padding-bottom:4px;
+  width:36px
+ }
+ gridcraft-hero-video {
+  display:block
+ }
+ .ck-aw:not(#_):not(#_):not(#_) {
+  background-color:hsla(227.5,75%,6.27%,100%);
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  gap:.5rem;
+  --u_rg: .5rem;
+  --u_cg: .5rem;
+  padding-bottom:2rem
+ }
+ .ck-ax:not(#_):not(#_):not(#_) {
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  align-items:center
+ }
+ .ck-ay:not(#_):not(#_):not(#_) {
+  padding:1rem
+ }
+ .ck-az:not(#_):not(#_):not(#_) {
+  width:32px
+ }
+ .ck-ba:not(#_):not(#_):not(#_) {
+  padding:1rem
+ }
+ .ck-bb:not(#_):not(#_):not(#_) {
+  width:32px
+ }
+ .ck-bc:not(#_):not(#_):not(#_) {
+  width:350px
+ }
+ gridcraft-links {
+  display:block
+ }
+ .ck-be:not(#_):not(#_):not(#_) {
+  cursor:pointer
+ }
+ .ck-be:not(#_):not(#_):not(#_):hover {
+  filter:brightness(80%)
+ }
+ audio-control {
+  display:block
+ }
+ index-page {
+  display:block
+ }
+ 
+ .p-5 {
+   z-index: 10;
+ }
